@@ -15,7 +15,7 @@ public class linearSearch {
     public static void main(String[] args) {
         int nums[] = {2, 4, 6, 8, 10};
         int target = 6;
-        int result = linearSearch(nums, target);
+        int result = linearsearch(nums, target);
         if(result == -1)
         {
             System.out.println("Element not found in the array.");
